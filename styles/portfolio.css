@@ -1,11 +1,16 @@
-h1 {
+:root{
+    --text-align: justify;
+--primary-color: #6c757d;
+}
+
+.name {
   color: black;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 96px;
 }
 
-p {
+.greeting {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 36px;
@@ -26,4 +31,49 @@ h2{
     font-weight: normal;
     line-height: 2;
     font-size: 24px;
+}
+
+section{
+    text-align: center;
+}
+
+.yogurt-project{
+     color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.weather-app{
+ color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.dictionary-app{
+ color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.yogurt{
+    text-align: var(--text-align);
+    color: var(--primary-color) ;
+}
+
+.weather{
+text-align: var(--text-align);
+color: var(--primary-color) ;
+
+}
+
+.dictionary{
+text-align: var(--text-align);
+color: var(--primary-color) ;
+}
+
+.row{
+    margin-top: 85px;
 }
